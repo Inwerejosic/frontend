@@ -1,2 +1,6 @@
 flask
 gunicorn
+Flask-Cors
+pyngrok
+transformers
+torch
