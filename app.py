@@ -8,6 +8,3 @@ def index():
 
 if __name__ == '__main__':
     app.run(debug=True) # debug=True for development
-
-
-    #I am testing commits
