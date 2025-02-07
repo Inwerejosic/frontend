@@ -1,6 +1,6 @@
 flask
 gunicorn
-Flask-Cors
-pyngrok
-transformers
-torch
+#Flask-Cors
+#pyngrok
+#transformers
+#torch
