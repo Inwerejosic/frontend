@@ -105,6 +105,7 @@
                     type: "POST",
                     contentType: "application/json",
                     data: JSON.stringify({ alternatives: alternatives }),
+                    dataType: 'json',
                     success: function (response) {
                         $('#loading-spinner').addClass('d-none');  // Hide spinner
                         $('#modal-body-content').html(`
