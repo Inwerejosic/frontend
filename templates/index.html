@@ -21,7 +21,7 @@
 <body class="bg-light">
     <div class="container py-5">
         <h1 class="text-center mb-4">AI Model Decision Maker</h1>
-        <form id="ai-model-form">
+        <form id="ai-model-form" method="POST">
             <div id="models-container" class="row g-4"></div>
             <div class="text-center mt-4">
                 <button type="submit" class="btn btn-primary btn-lg">Submit</button>
@@ -101,7 +101,7 @@
                 });
 
                 $.ajax({
-                    url: "https://48cc-34-69-96-39.ngrok-free.app/make_decision",  // Replace with your endpoint
+                    url: "/make_decision",  // Replace with your endpoint
                     type: "POST",
                     contentType: "application/json",
                     // dataType: 'text',
